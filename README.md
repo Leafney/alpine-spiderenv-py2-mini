@@ -139,6 +139,7 @@ After the installation is completed, you can be viewed with browser.
 * requests
 * selenium + firefox + chrome
 * beautifulsoup4
+* xmltodict
 * lxml
 * Scrapy
 * apscheduler

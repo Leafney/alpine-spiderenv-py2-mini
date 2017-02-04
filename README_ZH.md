@@ -140,6 +140,7 @@ $ docker run --name spiderscrapy -v /home/tiger/spiderfile:/app -d -p 9001:9001 
 * requests
 * selenium + firefox + chrome
 * beautifulsoup4
+* xmltodict
 * lxml
 * Scrapy
 * apscheduler
