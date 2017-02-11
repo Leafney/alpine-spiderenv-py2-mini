@@ -21,10 +21,8 @@ RUN echo "http://dl-4.alpinelinux.org/alpine/v3.5/main" > /etc/apk/repositories 
 
 RUN apk update && \
 	apk add python python-dev py2-pip curl unzip sqlite && \
-	adduser -D spider && \
 	mkdir -p /etc/supervisor/conf.d && \
-	mkdir -p /app && \
-	chown -R spider:spider /app
+	mkdir -p /app
 
 RUN apk add py-lxml py2-psutil && \
 	pip install beautifulsoup4 && \
